@@ -4,3 +4,5 @@ node_js:
   - '6'
 script:true
 before_install: npm prune
+deploy:
+  skip_cleanup: true
